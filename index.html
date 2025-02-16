@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah SMPN-1 Toili</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/program-icon.png">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <script>
+       (function() {
+           emailjs.init("F7Ll1Iiqy4-lS9IRY"); // Ganti dengan User ID Anda
+       })();
+   </script>
+<body>
+    <header>
+        <div class="logo">
+            <!--<img src="assets/logo.png" alt="Logo Sekolah SMPN-1 Toili">-->
+            <h3 class="title-web">SMPN-1 Toili</h3>
+        </div>
+        <nav>
+            <ul>
+                <!--<li><a href="#beranda">Beranda</a></li>--
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#kontak">Kontak</a></li>-->
+            </ul>
+        </nav>
+        <button id="tombol-menu"><i class="fas fa-home"></i></button>
+          <div id="menu">
+            <ul>
+              <li class="tampil"><i class="fas fa-info-circle"></i><a
+              href="#tentang">Tentang</a></li>
+              <li><i class="fas fa-code"></i><a href="#program">Program</a></li>
+              <li><i class="fas fa-laptop"></i><a href="contact.html">Developer</a></li>
+              <!--<li><i class="fas fa-money-bill-alt"></i><a href="https://saweria.co/RegnaV">Donasi</a>-->
+            </ul>
+          </div>
+    </header>
+    
+    <div class="back-menu">
+        <a class="back-but" href="index.html">Main Page</a>
+    </div>
+    
+    <!--<div class="blurring"></div>-->
+
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Website SMPN-1 Toili</h1>
+            <p>Menyediakan pendidikan berkualitas untuk masa depan yang cerah.</p>
+            <a href="#program" class="cta-button">Lihat Program Kami</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Sekolah SMPN-1 Toili adalah sekolah yang berkomitmen untuk memberikan pendidikan terbaik kepada siswa-siswi kami. Kami memiliki fasilitas modern dan guru-guru yang berpengalaman.</p>
+    </section>
+
+    <section id="program" class="programs">
+        <h2>Program Kami</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <!--<img src="assets/images/program-icon.png" alt="Program
+                Akademik">-->
+                <i class="fas fa-graduation-cap" style="font-size: 40px"></i>
+                <h3>Program Akademik</h3>
+                <p>Program akademik kami dirancang untuk mempersiapkan siswa menghadapi ujian nasional dan masuk perguruan tinggi.</p>
+            </div>
+            <div class="program-card">
+                <!--<img src="assets/images/program-icon.png" alt="Program
+                Ekstrakurikuler">-->
+                <i class="fas fa-fire" style="font-size: 40px"></i>
+                <h3>Program Ekstrakurikuler</h3>
+                <p>Kami menawarkan berbagai kegiatan ekstrakurikuler seperti olahraga, seni, dan musik.</p>
+            </div>
+            <div class="program-card">
+                <!--<img src="assets/images/program-icon.png" alt="Program
+                Beasiswa">-->
+                <i class="fas fa-trophy" style="font-size: 40px"></i>
+                <h3>Program Beasiswa</h3>
+                <p>Kami menyediakan beasiswa bagi siswa berprestasi untuk mendukung pendidikan mereka.</p>
+            </div>
+        </div>
+        <div class="slide-bar">
+            <div class="slide-items" id="slide-tu">
+                <!--<img src="assets/images/program-icon.png" alt="Tata
+                Usaha">-->
+                <h2>School Said</h2>
+                <p>"Green mean Good, then white mean shine. So red mean..."</p>
+            </div>
+            <div class="slide-items" id="slide-os">
+                <!--<img src="assets/images/program-icon.png" alt="Tata
+                Usaha">-->
+                <h2>Random People</h2>
+                <!--<br>-->
+                <p>"I love go to school, and i love being wierd"</p>
+            </div>
+             <div class="slide-items" id="slide-or">
+                <!--<img src="assets/images/program-icon.png" alt="Tata
+                Usaha">-->
+                <h2>Word</h2>
+                <!--<br>-->
+                <p>"Nothing"</p>
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="kontak" class="contact">
+        <div class="contact-box">
+            <h2>Kontak Kami</h2>
+            <form id="contactForm">--
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required placeholder="Example: Satriya Wira Jaya">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Example: yourname@gmail.com">
+                
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" required placeholder="Input some text here"></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>-->
+
+    <footer>
+        <p>&copy; 2025 Sekolah SMPN-1 Toili. Semua Hak Dilindungi.</p>
+        <i class="fa-solid fa-wallet"></i><a class="a-support" href="https://saweria.co/RegnaV"> Support Us</a>
+        <!--<li><a>Support Us</a></li>-->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="script.js"></script>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+    const tombolMenu = document.getElementById('tombol-menu');
+    const menu = document.getElementById('menu');
+    const listItems = menu.querySelectorAll('ul li');
+
+    tombolMenu.addEventListener('click', () => {
+      if (menu.classList.contains('tampil')) {
+        listItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.remove('tampil');
+          }, index * 200);
+        });
+        setTimeout(() => {
+          menu.classList.remove('tampil');
+        }, 800);
+      } else {
+        menu.classList.add('tampil');
+        setTimeout(() => {
+          listItems.forEach((item, index) => {
+            setTimeout(() => {
+              item.classList.add('tampil');
+            }, index * 200);
+          });
+        }, 500);
+      }
+    });
+  </script>
+</body>
+</html>
